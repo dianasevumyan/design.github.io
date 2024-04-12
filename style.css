@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(230, 226, 226);
+    position: fixed;
+    z-index: 5;
+}
+
+  a:hover{
+        background-color: rgb(190, 197, 197);
+         }
+.home,.plans,.about,.con{
+    color: black;
+    text-decoration: none;
+}
+    nav{
+        display: flex;
+        font-size: 20px;
+        }
+                
+        a{
+    width: 25%;    
+    height: 7vh;  
+    padding: 8px;
+    text-align: center;   
+    text-transform: capitalize;     
+    font-family: Arial, Helvetica, sans-serif;}
+      
+            .kexc{
+            width: 100%;
+            height: 7vh;
+            }
+        
+            h2{
+                font-size: 35px;
+                text-transform: uppercase;
+                position: absolute;
+                top: 15%;
+                left: 11%;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        
+            h6{
+                position: absolute;
+                top: 25%;
+                left: 11%;
+            }
+            .container{
+        width: 80%;
+        position: absolute;
+        top: 35%;
+        left: 10%;
+                  }
+
+                  .what{
+                    text-transform: capitalize;
+                    font-size: 26px;
+                    position: absolute;
+                    top: 125%;
+                    left: 46%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .gicmek {
+                    width: 13%;
+                    height: 1%;
+                    position: absolute;
+                    top: 132%;
+                    left: 46%;   
+                    background-color: rgb(80, 78, 78);
+                }
+                
+            .box{
+                width: 83%;
+                height: 27vh;
+                position: absolute;
+                top: 140%;
+                left: 11%;
+                display: flex;
+                border: none;
+            }
+            
+            .container-sm {
+                width: 25%;
+                height: 27vh;
+                font-size: 16px;
+                overflow: auto;       
+                }
+                h4{
+                    font-size: 25px;
+                   }
+                .a{
+                    background-color: rgb(209, 216, 216);
+                    padding: 10px;
+                    padding-top: 20px;                                     
+                    } 
+        
+                 .b{
+                    background-color: rgb(175, 164, 164);
+                    padding: 10px;
+                    padding-top: 5px;                      
+                 }   
+                 .c{
+                    background-color: rgb(107, 100, 100);
+                    color: white;
+                    padding: 10px;
+                    padding-top: 5px;                     
+                 } 
+                 .d{
+                    background-color: black;
+                    color: white;
+                    padding: 10px;
+                    padding-top: 5px;                      
+                 }
+                                
+                  .pricing{
+                    position: absolute;
+                    top: 180%;
+                    left: 46%;
+                    font-size: 25px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    }
+                    .choose{
+                    position: absolute;
+                    top: 190%;
+                    left: 41%;
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    }       
+                 
+                         .mek{
+                          position: absolute;
+                          top: 205%;
+                          left: 11%;
+                          width: 25%;
+                          height: 75%;
+                          border: solid 1px rgb(209, 201, 201);
+                          border-collapse: collapse;}
+                          .mek:hover{
+                              box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.24);
+                          }
+                          .basic{
+                              background-color: black;
+                              border: 10px;
+                              color: white;
+                              font-size: 25px;
+                              height: 13vh;
+                              text-align: center;
+                        }     
+                        
+                        .gb{
+                            padding-top: 15px;
+                        }
+                          tr{
+                            text-align: center;                                                                               
+                        }
+                          .per{
+                      font-size: 30px;
+                      text-align: center;
+                          }   
+                          .month{
+                              color: rgba(0, 0, 0, 0.486);
+                              text-align: center;
+                          }
+                          .bac{
+                             font-weight: 100;
+                          }                          
+                  
+                  button{
+                     width: 30%;
+                     height: 7vh;
+                     text-transform: capitalize;
+                     background-color: limegreen;
+                     color: white;
+                     border: none;
+                     font-size: 15px;                     
+                    }
+                     button:hover{
+                      background-color: rgb(219, 209, 209);
+                      color: black;
+                     }
+                  
+                  .verjin{
+                      background-color: rgba(169, 169, 169, 0.24);
+                      height: 13vh;
+                      text-align: center;
+                  }               
+                
+                .erku{
+                  position: absolute;
+                  top: 205%;
+                  left: 38%;
+                  width: 25%;
+                  height: 75%;
+                  border: solid 1px rgb(209, 201, 201);
+                  border-collapse: collapse;}
+                  .erku:hover{
+                      box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.24);
+                  }
+                  .pro{
+                   background-color: rgb(128, 121, 121);
+                   border: 10px, color rgb(0, 0, 0);
+                   color: white;
+                   font-size: 25px;
+                   height: 13vh;
+                   text-align: center;
+                  }
+                  th{
+                  border: solid rgba(0, 0, 0, 0.377) 1px;                                      
+                  }  
+                
+                  .per{
+                  font-size: 30px;
+                   }   
+                  .month{
+                   color: rgba(0, 0, 0, 0.582);
+                  }
+                                
+                .ereq{
+                  position: absolute;
+                  top: 205%;
+                  left: 65%;
+                  width: 25%;
+                  height: 75%;
+                  border: solid 1px rgb(209, 201, 201);
+                  border-collapse: collapse;}
+                  .ereq:hover{
+                      box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.24);
+                  }
+                  .premium{
+                      background-color: black;
+                      border: 10px;
+                      color: white;
+                      font-size: 25px;
+                      height: 13vh;
+                      text-align: center;
+                  }
+                  th{
+                      border: solid rgba(0, 0, 0, 0.377) 1px;                    
+                  }  
+                  .per{
+                      font-size: 30px;
+                       }   
+                      .month{
+                       color: rgba(0, 0, 0, 0.486);
+                      }                
+                
+                .who{
+                  text-transform: capitalize;
+                  position: absolute;
+                  top: 295%;
+                  left: 45%;
+                  font-size: 30px;
+                  font-family: Arial, Helvetica, sans-serif;                               
+                }
+                .gicerku{
+                  width: 14%;
+                  height: 1%;
+                  position: absolute;
+                  top: 302%;
+                  left: 44%;   
+                  background-color: rgb(80, 78, 78);
+                }
+                
+               .ereqnkar{
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                top: 310%;
+                width: 79%;
+                left: 11%;
+            }
+             .btn-primary{
+                    font-size: 15px;
+                    width: 100%;
+                    height: 6vh;
+                    border: none;
+                    background-color: grey;
+                    color: black;
+                }
+                    
+                  .btn-primary:hover{
+                    background-color: rgb(187, 178, 178) ;
+               }
+               
+               .ceo, .art, .design{
+                color: rgba(0, 0, 0, 0.541);
+                font-family: Arial, Helvetica, sans-serif
+                }
+                .butt{ 
+                    background-color: rgb(238, 228, 228);
+                    color: black;
+                    font-size: 15px;
+                    width: 100%;
+                    height: 6vh;
+                    border: none;
+                   }                         
+                  .butt:hover{
+                    background-color: rgb(187, 178, 178);
+                    color: black;
+                 } 
+                .contact{
+                    text-transform: capitalize;
+                    position: absolute;
+                    top: 110%;
+                    left: 44%;
+                    font-size: 25px; 
+                    font-family: Arial, Helvetica, sans-serif;  
+                }
+                .gicereq{
+                    width: 12%;
+                    height: 1%;
+                    position: absolute;
+                    top: 120%;
+                    left: 44%;   
+                    background-color: rgb(80, 78, 78);
+                }
+                .toxer{
+                    position: absolute;
+                    top: 130%;
+                    width: 125%;
+                  }                
+                    .name{
+                        text-transform: capitalize;
+                        font-size: 17px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }                    
+                    .text{ 
+                        width: 80%;      
+                        height: 6vh;                        
+                    }
+                    .mail, .subject, .message{
+                        width: 80%;
+                        height: 6vh;
+                        text-transform: capitalize;
+                        font-size: 17px;
+                        font-family: Arial, Helvetica, sans-serif;                       
+                    }
+                        .send{
+                        width: 80%;
+                        height: 6vh;
+                        background-color: black;
+                        color: white;
+                        text-transform: capitalize;
+                        font-size: 17px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        border: none;}
+                 .send:hover{
+                    background-color: rgb(137, 137, 139);
+                    color: black;
+                } 
+
+                footer{
+                    width: 100%;
+                    height: 40%;
+                    background-color: rgb(241, 236, 236);
+                    position: absolute;
+                    top: 490%;}
+
+                .foot{
+                    text-align: center;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding-top: 40px;
+                    padding-left: 25px;
+                }
+                .to{
+                    width: 10%;
+                    height: 5vh;
+                    position: absolute;
+                    left: 46%;
+                    top: 35%;
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    font-size: 15px;}
+                    
+                    .to:hover{
+                        background-color: rgb(196, 192, 192);
+                        color: black;
+                    }
+                .icon{
+                    padding-left: 42%;
+                    padding-top: 5%;                                      
+                }
+                .slaq{
+                    padding-right: 10px;
+                }
+                .powered{
+                    position: absolute;
+                    left: 45%;
+                    top: 78%;
+                    font-size: 17px;}
+                    
+                   
